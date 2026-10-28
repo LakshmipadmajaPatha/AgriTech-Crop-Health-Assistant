@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environment
+myenv/
+venv/
+.env
+
+# Database
+db.sqlite3
+
+# Uploaded Images
+media/images/crop_predictions/
+media/images/user/
+
+# Dataset
+dataset/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+# Local Python virtual environments
+.venv/
+myenv/
+venv/
+
+# Local backup templates
+assets/templates/farmer/myprofile_backup.html
+assets/templates/govtOfficer/all-users_backup.html
+
+# Local uploaded media
+media/diseased leaf image
+
+# Environment and secret files
+.env.*
+!.env.example
+# Local uploaded files and user data
+media/
