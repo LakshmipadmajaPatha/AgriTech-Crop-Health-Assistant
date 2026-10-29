@@ -255,53 +255,6 @@ These use cases describe potential applications. Actual effectiveness in agricul
 
 ---
 
-## 8. Limitations and Responsible Use
-
-- Model performance depends on the training data, recognized classes, image quality, and real-world conditions.
-- A prediction does not establish a confirmed disease diagnosis.
-- The application may not recognize diseases, pests, nutrient deficiencies, or environmental stress outside the model's training classes.
-- Gemini responses may be inaccurate, outdated, or unsuitable for a particular crop or region.
-- Pesticide selection, dosage, and application decisions should follow product labels and qualified local agricultural guidance.
-- The availability of chatbot responses depends on API credentials, quotas, network connectivity, and Google's service availability.
-- The application should be tested for security, reliability, and data protection before production deployment.
-
----
-
-## 9. Future Improvements
-
-Potential enhancements include:
-
-- Evaluate the model using a held-out dataset and report appropriate classification metrics.
-- Add confidence information and clearer warnings for uncertain predictions, if supported by the model.
-- Expand the training dataset with verified images of locally relevant crops and diseases.
-- Add tests for image uploads, authentication, and chatbot error handling.
-- Improve accessibility, mobile responsiveness, and user guidance.
-- Add a verified agricultural knowledge base for responses grounded in trusted sources.
-- Introduce secure production deployment, logging, monitoring, and appropriate data-retention controls.
-- Evaluate performance with agricultural experts and real-world users before relying on predictions for crop treatment.
-
----
-
-## 10. Project Background and Attribution
-
-This repository is an adapted version of an existing crop disease detection project. The existing implementation provides the starting point for the application's web interface and machine learning functionality.
-
-Original project:
-https://github.com/kiransainagendra/Farmers-Crop-Disease-Detection-System-AgriTech
-
-This repository documents the adaptation and its configuration, including Google Gemini API integration and fixes made to handle missing profile images in relevant templates.
-
-The original project and model remain subject to their applicable ownership and licensing terms. Confirm permission to redistribute the original code and model before publishing this repository publicly.
-
----
-
-## 11. Contributing and Learning
-
-Developers can explore the codebase, identify areas for improvement, and propose changes that improve correctness, maintainability, usability, and responsible AI use.
-
-Before contributing, verify dependency compatibility, avoid committing secrets or private user data, and test changes locally.
-
----
 
 ## Conclusion
 
