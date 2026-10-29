@@ -194,7 +194,6 @@ $env:GEMINI_API_KEY = "YOUR API KEY"
 
 Replace the placeholder with your own key.
 
-**Security:** Never commit your actual API key to GitHub. Do not place it directly in Python source files or the README. Configure it separately on every machine or deployment environment that needs it.
 
 The application reads the key through the `GEMINI_API_KEY` environment variable. Chatbot functionality may be unavailable when the key is missing, invalid, rate-limited, or affected by a temporary service error.
 
